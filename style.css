@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url("mark-timberlake-bHgryzdM2II-unsplash.jpg");
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 4rem;
+  margin-top: 8rem;
+  margin-bottom: 1rem;
+}
+
+.countdown-container {
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+}
+
+.big-text {
+  font-size: 5rem;
+  font-weight: 200;
+  margin: 0 3rem;
+}
+
+.countdown-item {
+  text-align: center;
+}
+.countdown-item span {
+  font-size: 1.5rem;
+}
